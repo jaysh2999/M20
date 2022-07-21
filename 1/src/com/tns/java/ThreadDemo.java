@@ -20,7 +20,7 @@ class MyThread implements Runnable
 	public static void main(String[] args) 
 	{
 	      MyThread t=new MyThread();
-	Thread s=new Thread(t);
+	Thread s=new Thread();
 	s.start();//strat your thread
       }
    }
